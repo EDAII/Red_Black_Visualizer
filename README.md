@@ -1,36 +1,79 @@
-# Repositório Template
-Repositório de Template para os projetos da disciplina 
-```
-Nome do Repositório (Apague este tópico)
-  O nome do repositório deve seguir o padrão <TemaProjeto>_<Nome Projeto>.
-  O nome do projeto deve representar o que foi implementado no mesmo (Ex:
-  Game xyz, Implementações Otimizadas de Algoritmos, Aplicativo xpto)
+# Red Black Visualizer
 
-Os temas de projeto são:  
- - Busca - Algoritmos de busca  
- - Ord_quad - Algoritmos de ordenação O(n²)  
- - Ord_nlogn - Algoritmos de ordenação O(n*log(n))  
- - Arv - Algoritmos de manipulação de Árvores  
- - Grafo - Algoritmos de manipulação de Grafos  
- 
- Ex: Busca_ConcorrenteDaGoogle
-```
 ## Alunos  
-| Matrícula | Nome |  
-|-----------------------|---------------------|  
-| xx/xxxxxxx | xxxx xxxx xxxxx |  
-| xx/xxxxxxx | xxxx xxxx xxxxx |  
-## Descrição do projeto
-Aqui você deve dizer o objetivo deste projeto e o que realmente foi feito neste repositório.
-## Guia de instalação
-Aqui devem estar descritas as dependências do projeto (versões de linguagens e ferramentas) e as instruções necessárias para executar o projeto. 
-### Dependências do projeto
+| Matrícula | Nome                                      |  
+|-----------|-------------------------------------------|  
+| 21/1031083 | Julia Vitória Freire Silva                |  
+| 20/0038028 | Guilherme Evangelista Ferreira dos Santos |  
+
+---
+
+## Descrição do projeto  
+Este projeto implementa uma **visualização interativa** para demonstrar o funcionamento de uma **Árvore Red-Black**.
+
+A aplicação, desenvolvida em **Python**, permite:  
+- Mostrar passo a passo o processo de inserção e remoção de nós na árvore.  
+- Destacar as alterações nas propriedades da árvore (cor dos nós e balanceamento).  
+- Exibir as rotações realizadas para manter as propriedades da árvore Red-Black.
+- Permitir interação do usuário (passo a passo ou execução automática).  
+- Colorir dinamicamente os elementos para indicar o estado atual da árvore.
+
+---
+
+## Guia de instalação  
+
+### Dependências do projeto  
+- **Python 3.8+**  
+
+Para instalar as dependências, execute:  
+```bash
+pip install -r requirements.txt
+````
+
 ### Como executar o projeto
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/SeuUsuario/RedBlackVisualizer.git
+```
+
+2. Execute o arquivo principal:
+
+```bash
+python red_black_visualizer.py
+```
+
+3. Controles disponíveis:
+
+* **S** → Executa um passo da inserção de um nó na árvore.
+* **R** → Executa um passo da remoção de um nó da árvore.
+* **ESPAÇO** → Inicia/pausa a execução automática do processo.
+* **C** → Cria uma nova árvore com um conjunto de valores aleatórios.
+
+---
+
 ## Capturas de tela
-Neste tópico você deve adicionar imagens do funcionamento do projeto.  
- - As imagens devem ser salvas no repositório.
- - Imagens salvas em domínios eternos tendem a ficar indisponíveis e devem ser evitadas.   
+
+![Árvore Red-Black](assets/imagem1.png)
+
+---
+
+## 🎥 Vídeo de Apresentação
+
+Neste vídeo, apresentamos um resumo completo do trabalho desenvolvido, abordando os principais pontos discutidos ao longo do projeto.
+
+[Assista no YouTube](https://youtu.be/3Bvmv71fBWk)
+
+---
+
 ## Conclusões
-Aqui você diz se o algoritmo utilizado foi útil, se tem limitações, etc.
-## Referências
-Caso tenha utilizado algum agoritmo como base, citar o mesmo devidamente para  evitar quaisquer denuncias de plágio.
+
+* A **Árvore Red-Black** é uma estrutura de dados eficiente para busca, inserção e remoção de elementos, com complexidade O(log n) para essas operações.
+* O uso das propriedades de balanceamento (cores dos nós e rotações) garante que a árvore permaneça balanceada, evitando degradação de desempenho.
+* A visualização gráfica facilita o **entendimento didático** do funcionamento da árvore e das operações realizadas.
+* **Limitação**: a visualização é limitada à inserção e remoção de nós e não inclui outras operações como busca e travessia da árvore.
+
+---
+
+
