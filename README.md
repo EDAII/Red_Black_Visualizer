@@ -44,12 +44,6 @@ git clone https://github.com/SeuUsuario/RedBlackVisualizer.git
 python main.py
 ```
 
-3. Controles disponíveis:
-
-* **S** → Executa um passo da inserção de um nó na árvore.
-* **R** → Executa um passo da remoção de um nó da árvore.
-* **ESPAÇO** → Inicia/pausa a execução automática do processo.
-* **C** → Cria uma nova árvore com um conjunto de valores aleatórios.
 
 ---
 
