@@ -41,7 +41,7 @@ git clone https://github.com/SeuUsuario/RedBlackVisualizer.git
 2. Execute o arquivo principal:
 
 ```bash
-python red_black_visualizer.py
+python main.py
 ```
 
 3. Controles disponíveis:
@@ -63,7 +63,7 @@ python red_black_visualizer.py
 
 Neste vídeo, apresentamos um resumo completo do trabalho desenvolvido, abordando os principais pontos discutidos ao longo do projeto.
 
-[Assista no YouTube](https://youtu.be/3Bvmv71fBWk)
+[Assista no YouTube]()
 
 ---
 
