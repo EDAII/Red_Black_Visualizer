@@ -57,7 +57,7 @@ python main.py
 
 Neste vídeo, apresentamos um resumo completo do trabalho desenvolvido, abordando os principais pontos discutidos ao longo do projeto.
 
-[Assista no YouTube]()
+[Assista no YouTube](https://youtu.be/D9cNCG4G5Vo)
 
 ---
 
